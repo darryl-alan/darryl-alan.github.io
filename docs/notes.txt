@@ -1,0 +1,13 @@
+references:
+1. https://www.hanselman.com/blog/CDNsFailButYourScriptsDontHaveToFallbackFromCDNToLocalJQuery.aspx
+2. https://stackoverflow.com/questions/2170484/shouldnt-we-use-noscript-element
+3. https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/
+4. https://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript
+
+
+
+Libraries:
+1. https://github.com/scrollreveal/scrollreveal  /   https://scrollrevealjs.org    (GPLv3 / proprietary for commercial)
+2. https://github.com/VincentGarreau/particles.js/   /   https://vincentgarreau.com/particles.js/    (MIT)
+3. https://github.com/tengbao/vanta   /   https://www.vantajs.com/    (MIT)
+4. https://github.com/imakewebthings/waypoints   /   http://imakewebthings.com/waypoints/guides/getting-started    (MIT)
