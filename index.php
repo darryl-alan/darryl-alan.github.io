@@ -129,8 +129,103 @@
 				<a href="#portfolio" style="font-size:30px;">See my work<br>&#x25BC;</a>
 			</div>
 		</div>
-		<div class="full bg-yellow">
-
+		<div class="full-width bg-yellow" id="portfolio">
+			<div class="container py-5 text-center">
+				<div class="row mt-3">
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Website
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Meat Me Steakhouse</h5>
+								<p class="card-text">Business website</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Full Stack Web App
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Delvi</h5>
+								<p class="card-text">Supplier invoicing system</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Full Stack Web App
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Evo</h5>
+								<p class="card-text">Supplier invoicing system</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Full Stack Web App
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">ePIC</h5>
+								<p class="card-text">Supplier quality management system</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Android
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Despondent</h5>
+								<p class="card-text">Web API client</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Android
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Delisi</h5>
+								<p class="card-text">Delivery asset tracking</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 mt-3">
+						<div class="card">
+							<div class="card-header">
+								Android / Deep Learning
+							</div>
+							<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Artz</h5>
+								<p class="card-text">Neural Style Transfer</p>
+								<a href="#" class="btn btn-primary">See more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#contact" style="font-size:30px;">Contact me<br>&#x25BC;</a>
+			</div>
 		</div>
 	</body>
 </html>
