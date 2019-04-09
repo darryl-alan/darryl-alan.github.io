@@ -643,7 +643,7 @@
 
 	<div class="full-width bg-light" id="contact">
 		<div class="container py-5 text-left">
-			<div class="mt-5 text-center">
+			<div class="my-5 text-center">
 				<h1 class="text-dark">Contact Me</h1>
 			</div>
 			<div class="row">
@@ -661,12 +661,17 @@
 						<button type="submit" class="btn btn-dark">Send</button>
 					</form>
 				</div>
-				<div class="col-12 text-center my-5">
-					<a class="text-dark mr-5" href="https://www.linkedin.com/in/darryl-alan/"
-					   style="font-size:50px;"><i class="fab fa-linkedin"></i></a>
-
-					<a class="text-dark" href="https://github.com/darryl-alan"
-					   style="font-size:50px;"><i class="fab fa-github-square"></i></a>
+				<div class="col-12 text-left my-5 pb-5">
+					<h3>Or you can find me on</h3>
+					<a class="text-dark no-decor" href="https://www.linkedin.com/in/darryl-alan"
+					   style="font-size:30px;"><i class="fab fa-linkedin"></i>
+						<span>https://www.linkedin.com/in/darryl-alan</span>
+					</a>
+					<br>
+					<a class="text-dark no-decor" href="https://github.com/darryl-alan"
+					   style="font-size:30px;"><i class="fab fa-github-square"></i>
+						<span>https://github.com/darryl-alan</span>
+					</a>
 				</div>
 			</div>
 		</div>
