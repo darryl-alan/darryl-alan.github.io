@@ -28,12 +28,12 @@
 			position: relative;
 		}
 
-		.bg-yellow {
-			background-color: yellow;
+		.bg-light {
+			background-color: #4f6fc6;
 		}
 
-		.bg-red {
-			background-color: #ffaaaa;
+		.bg-dark {
+			background-color: ##1f283f;
 		}
 
 		.center {
@@ -47,75 +47,104 @@
 			transform: translate(-50%, -50%);
 		}
 
-		.vertical-center {
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-		}
-
-		.horizontal-center {
-			position: absolute;
-			left: 50%;
-			transform: translateX(-50%);
-		}
-
 		.text-center {
 			text-align: center;
 		}
 
-	</style>
-
-
-	<style>
 		#particles-js {
 			position: absolute;
 			width: 100%;
 			height: 100%;
-			background-color: #131751;
-			/*background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png");*/
-			/*background-repeat: no-repeat;*/
-			/*background-size: 20%;*/
-			/*background-position: 50% 50%;*/
+			background-color: #000 ;
 		}
 
-		/* ---- stats.js ---- */
-		.count-particles {
-			background: #000022;
+		.card-img-top {
+			height: 160px;
+		}
+
+		.no-decor {
+			text-decoration: none;
+		}
+		.no-decor:visited {
+			color:initial;
+		}
+		.no-decor:hover{
+			text-decoration: none;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.downArrow{
 			position: absolute;
-			top: 48px;
-			left: 0;
-			width: 80px;
-			color: #13E8E9;
-			font-size: .8em;
-			text-align: left;
-			text-indent: 4px;
-			line-height: 14px;
-			padding-bottom: 2px;
-			font-family: Helvetica, Arial, sans-serif;
-			font-weight: bold;
+			left:43%;
 		}
-
-		.js-count-particles {
-			font-size: 1.1em;
+		.bounce {
+			-moz-animation: bounce 3s infinite;
+			-webkit-animation: bounce 3s infinite;
+			animation: bounce 3s infinite;
 		}
-
-		#stats, .count-particles {
-			-webkit-user-select: none;
-			margin-top: 5px;
-			margin-left: 5px;
+		@-moz-keyframes bounce {
+			0%, 20%, 50%, 80%, 100% {
+				-moz-transform: translateY(0);
+				transform: translateY(0);
+			}
+			40% {
+				-moz-transform: translateY(-30px);
+				transform: translateY(-30px);
+			}
+			60% {
+				-moz-transform: translateY(-15px);
+				transform: translateY(-15px);
+			}
 		}
-
-		#stats {
-			border-radius: 3px 3px 0 0;
-			overflow: hidden;
+		@-webkit-keyframes bounce {
+			0%, 20%, 50%, 80%, 100% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+			}
+			40% {
+				-webkit-transform: translateY(-30px);
+				transform: translateY(-30px);
+			}
+			60% {
+				-webkit-transform: translateY(-15px);
+				transform: translateY(-15px);
+			}
 		}
-
-		.count-particles {
-			border-radius: 0 0 3px 3px;
+		@keyframes bounce {
+			0%, 20%, 50%, 80%, 100% {
+				-moz-transform: translateY(0);
+				-ms-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+			}
+			40% {
+				-moz-transform: translateY(-30px);
+				-ms-transform: translateY(-30px);
+				-webkit-transform: translateY(-30px);
+				transform: translateY(-30px);
+			}
+			60% {
+				-moz-transform: translateY(-15px);
+				-ms-transform: translateY(-15px);
+				-webkit-transform: translateY(-15px);
+				transform: translateY(-15px);
+			}
 		}
 	</style>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
 <!-- particles.js container -->
 <div id="particles-js"></div> <!-- stats - count particles -->
 <!--<div class="count-particles"><span class="js-count-particles">--</span> particles</div>-->
@@ -124,14 +153,19 @@
 <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
 <div class="full">
-	<div class="center text-center text-white" style="font-size:30px;">
+	<div class="center text-center text-white" style="font-size:45px;">
 		Seek Darryl<br>
 		and you shall find...<br><br>
-		<a href="#about">&#x25BC;</a>
+<!--		<a class="no-decor text-white" href="#about">&#x25BC;</a>-->
+		<div style="position:relative;">
+			<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
+				&#x25BC;
+			</a>
+		</div>
 	</div>
 </div>
 <div>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
 		<!--				<a class="navbar-brand" href="#">Navbar</a>-->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -140,8 +174,8 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
@@ -155,7 +189,7 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="full-width bg-red pt-5" id="about">
+	<div class="full-width bg-light pt-5" id="about">
 
 		<div class="container py-5 text-center">
 			<div class="row">
@@ -173,7 +207,7 @@
 			<div class="row mt-3">
 				<div class="col-xs-12 col-sm-6 col-lg-3 mt-3">
 					<div class="card">
-						<div class="card-header">
+						<div class="card-header bg-dark text-white">
 							Front End
 						</div>
 						<div class="card-body">
@@ -190,7 +224,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-3 mt-3">
 					<div class="card">
-						<div class="card-header">
+						<div class="card-header bg-dark text-white">
 							Back End
 						</div>
 						<div class="card-body">
@@ -207,7 +241,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-3 mt-3">
 					<div class="card">
-						<div class="card-header">
+						<div class="card-header bg-dark text-white">
 							Mobile
 						</div>
 						<div class="card-body">
@@ -221,7 +255,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-3 mt-3">
 					<div class="card">
-						<div class="card-header">
+						<div class="card-header bg-dark text-white">
 							Deep Learning
 						</div>
 						<div class="card-body">
@@ -237,7 +271,7 @@
 			<a href="#portfolio" style="font-size:30px;">See my work<br>&#x25BC;</a>
 		</div>
 	</div>
-	<div class="full-width bg-yellow" id="portfolio">
+	<div class="full-width bg-dark" id="portfolio">
 		<div class="container py-5 text-center">
 			<div class="row mt-3">
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
@@ -249,7 +283,7 @@
 						<div class="card-body">
 							<h5 class="card-title">Meat Me Steakhouse</h5>
 							<p class="card-text">Business website</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -262,7 +296,7 @@
 						<div class="card-body">
 							<h5 class="card-title">Unique Home</h5>
 							<p class="card-text">Business website</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -275,7 +309,7 @@
 						<div class="card-body">
 							<h5 class="card-title">Kreasicipta</h5>
 							<p class="card-text">Business website</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -288,189 +322,189 @@
 <!--						<div class="card-body">-->
 <!--							<h5 class="card-title">NG Photography</h5>-->
 <!--							<p class="card-text">Business website</p>-->
-<!--							<a href="#" class="btn btn-primary">See more</a>-->
+<!--							<a href="#" class="btn btn-dark">See more</a>-->
 <!--						</div>-->
 <!--					</div>-->
 <!--				</div>-->
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi.PNG" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Delvi</h5>
 							<p class="card-text">Supplier invoicing system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/dqs.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">DQS</h5>
 							<p class="card-text">Dealer Quality system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/epayment.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ePayment</h5>
 							<p class="card-text">Payment approval system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/bimas.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Bimas</h5>
 							<p class="card-text">Customer billing system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/partmovement.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Part Movement</h5>
 							<p class="card-text">Logistics tracking system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/inhouse.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Inhouse</h5>
 							<p class="card-text">Spare parts tracking</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/efin.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">eFIN</h5>
 							<p class="card-text">Finance invoicing system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/leasing.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Leasing</h5>
 							<p class="card-text">Vehicle leasing system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/evo.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Evo</h5>
 							<p class="card-text">Finance invoicing system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
 						<img class="card-img-top" src="images/epic.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ePIC</h5>
 							<p class="card-text">Supplier quality management system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App & Android
+							Web App & Android App
 						</div>
 						<img class="card-img-top" src="images/wms.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">WMS</h5>
 							<p class="card-text">Warehouse management</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/gmiv.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">GMIV</h5>
 							<p class="card-text">Finance invoicing system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/invento.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Invento</h5>
 							<p class="card-text">Inventory tracking</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/SLS.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">SLS</h5>
 							<p class="card-text">Service tracking system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -478,13 +512,13 @@
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/ITS.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ITS</h5>
 							<p class="card-text">Inventory Tracking</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -492,13 +526,13 @@
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/JSS.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">JSS</h5>
 							<p class="card-text">Sales tracking</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -506,13 +540,13 @@
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Web App
+							Web App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/TAS.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">TAS</h5>
 							<p class="card-text">Accounting system</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -520,13 +554,13 @@
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
-							Full Stack Desktop App
+							Desktop App
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/DBase.PNG" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">DBase</h5>
 							<p class="card-text">Dental appointments</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -535,11 +569,11 @@
 						<div class="card-header">
 							Android
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi.PNG" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Despondent</h5>
 							<p class="card-text">Web API client</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -548,11 +582,11 @@
 						<div class="card-header">
 							Android
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi.PNG" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Delisi</h5>
 							<p class="card-text">Delivery asset tracking</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -561,11 +595,11 @@
 						<div class="card-header">
 							Android / Deep Learning
 						</div>
-						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi.PNG" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Artz</h5>
 							<p class="card-text">Neural Style Transfer</p>
-							<a href="#" class="btn btn-primary">See more</a>
+							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
 				</div>
@@ -574,7 +608,7 @@
 		</div>
 	</div>
 
-	<div class="full-width bg-red" id="about">
+	<div class="full-width bg-light" id="about">
 		<div class="container py-5 text-left">
 			<div class="row">
 				<div class="col-12">
@@ -588,7 +622,7 @@
 							<label for="exampleFormControlTextarea1">Message</label>
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">Send</button>
+						<button type="submit" class="btn btn-dark">Send</button>
 					</form>
 				</div>
 			</div>
