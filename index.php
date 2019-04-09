@@ -8,12 +8,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"></script>
 
+
+
+	<link href="styles.css" type="text/css" rel="stylesheet">
 	<style>
 		.full {
 			width: 100vw;
@@ -26,14 +32,6 @@
 			width: 100vw;
 			max-width: 100%;
 			position: relative;
-		}
-
-		.bg-light {
-			background-color: #4f6fc6;
-		}
-
-		.bg-dark {
-			background-color: ##1f283f;
 		}
 
 		.center {
@@ -94,6 +92,11 @@
 			-webkit-animation: bounce 3s infinite;
 			animation: bounce 3s infinite;
 		}
+		.bounce:hover {
+			-moz-animation:none;
+			-webkit-animation:none;
+			animation:none;
+		}
 		@-moz-keyframes bounce {
 			0%, 20%, 50%, 80%, 100% {
 				-moz-transform: translateY(0);
@@ -142,6 +145,17 @@
 				transform: translateY(-15px);
 			}
 		}
+
+
+
+
+
+
+
+
+
+
+
 	</style>
 </head>
 <body data-spy="scroll" data-target="#navbar">
@@ -159,7 +173,7 @@
 <!--		<a class="no-decor text-white" href="#about">&#x25BC;</a>-->
 		<div style="position:relative;">
 			<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
-				&#x25BC;
+				<i class="fas fa-caret-down"></i>
 			</a>
 		</div>
 	</div>
@@ -268,12 +282,23 @@
 					</div>
 				</div>
 			</div>
-			<a href="#portfolio" style="font-size:30px;">See my work<br>&#x25BC;</a>
+			<div class="mt-5">
+				<a href="#portfolio" class="text-dark no-decor" style="font-size:35px;">
+					See my work
+					<br>
+					<button class="btn btn-circle btn-dark mt-3">
+						<i class="fa fa-angle-down fa-2x animated"></i>
+					</button>
+				</a>
+			</div>
 		</div>
 	</div>
 	<div class="full-width bg-dark" id="portfolio">
 		<div class="container py-5 text-center">
-			<div class="row mt-3">
+			<div class="mt-5">
+				<h1 class="text-white">Portfolio</h1>
+			</div>
+			<div class="row mt-5">
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
@@ -604,12 +629,23 @@
 					</div>
 				</div>
 			</div>
-			<a href="#contact" style="font-size:30px;">Contact me<br>&#x25BC;</a>
+			<div class="mt-5">
+				<a href="#contact" class="text-white no-decor" style="font-size:35px;">
+					Contact me
+					<br>
+					<button class="btn btn-circle btn-light mt-3">
+						<i class="fa fa-angle-down fa-2x animated"></i>
+					</button>
+				</a>
+			</div>
 		</div>
 	</div>
 
-	<div class="full-width bg-light" id="about">
+	<div class="full-width bg-light" id="contact">
 		<div class="container py-5 text-left">
+			<div class="mt-5 text-center">
+				<h1 class="text-dark">Contact Me</h1>
+			</div>
 			<div class="row">
 				<div class="col-12">
 					<form>
@@ -620,10 +656,17 @@
 						</div>
 						<div class="form-group">
 							<label for="exampleFormControlTextarea1">Message</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
 						</div>
 						<button type="submit" class="btn btn-dark">Send</button>
 					</form>
+				</div>
+				<div class="col-12 text-center my-5">
+					<a class="text-dark mr-5" href="https://www.linkedin.com/in/darryl-alan/"
+					   style="font-size:50px;"><i class="fab fa-linkedin"></i></a>
+
+					<a class="text-dark" href="https://github.com/darryl-alan"
+					   style="font-size:50px;"><i class="fab fa-github-square"></i></a>
 				</div>
 			</div>
 		</div>
