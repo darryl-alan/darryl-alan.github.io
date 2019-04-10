@@ -2,6 +2,7 @@ $(function () {
 	$("a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
+		if($(this).hasClass('carousel-control')) return;
 
 		$('html, body').animate({
 			scrollTop: $(hash).offset().top
