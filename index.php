@@ -164,7 +164,7 @@
 						<div class="card-header">
 							Website
 						</div>
-						<img class="card-img-top" src="images/meatme_thumb.png" alt="Meat Me Steakhouse Thumbnail">
+						<img class="card-img-top" src="images/meatme_thumb.png" srcset="images/meatme_thumb_2x.png 2x" alt="a head carved out of wood">
 						<div class="card-body">
 							<h5 class="card-title">Meat Me Steakhouse</h5>
 							<p class="card-text">Business website</p>
@@ -177,7 +177,7 @@
 						<div class="card-header">
 							Website
 						</div>
-						<img class="card-img-top" src="images/uniquehome.png" alt="Unique Home Interior Design">
+						<img class="card-img-top" src="images/uniquehome_thumb.png" srcset="images/uniquehome_thumb_2x.png 2x" alt="Unique Home Interior Design">
 						<div class="card-body">
 							<h5 class="card-title">Unique Home</h5>
 							<p class="card-text">Business website</p>
@@ -190,7 +190,7 @@
 						<div class="card-header">
 							Website
 						</div>
-						<img class="card-img-top" src="images/kreasicipta_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/kreasicipta_thumb.png" srcset="images/kreasicipta_thumb_2x.png 2x" alt="a head carved out of wood">
 						<div class="card-body">
 							<h5 class="card-title">Kreasicipta</h5>
 							<p class="card-text">Business website</p>
@@ -203,7 +203,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/delvi_thumb.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi_thumb.PNG" srcset="images/delvi_thumb_2x.PNG 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Delvi</h5>
 							<p class="card-text">Supplier invoicing system</p>
@@ -216,7 +216,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/dqs_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/dqs_thumb.png" srcset="images/dqs_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">DQS</h5>
 							<p class="card-text">Dealer Quality system</p>
@@ -229,7 +229,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/epayment_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/epayment_thumb.png" srcset="images/epayment_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ePayment</h5>
 							<p class="card-text">Payment approval system</p>
@@ -242,7 +242,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/bimas_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/bimas_thumb.png" srcset="images/bimas_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Bimas</h5>
 							<p class="card-text">Customer billing system</p>
@@ -255,7 +255,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/partmovement.png" alt="Card image cap">
+						<img class="card-img-top" src="images/partmovement_thumb.png" srcset="images/partmovement_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Part Movement</h5>
 							<p class="card-text">Logistics tracking system</p>
@@ -268,7 +268,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/inhouse_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/inhouse_thumb.png" srcset="images/inhouse_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Inhouse</h5>
 							<p class="card-text">Spare parts tracking</p>
@@ -281,7 +281,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/efin_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/efin_thumb.png" srcset="images/efin_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">eFIN</h5>
 							<p class="card-text">Finance invoicing system</p>
@@ -294,7 +294,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/leasing.png" alt="Card image cap">
+						<img class="card-img-top" src="images/leasing_thumb.png" srcset="images/leasing_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Leasing</h5>
 							<p class="card-text">Vehicle leasing system</p>
@@ -307,7 +307,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/evo_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/evo_thumb.png" srcset="images/evo_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Evo</h5>
 							<p class="card-text">Finance invoicing system</p>
@@ -320,10 +320,10 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/epic_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/epic_thumb.png" srcset="images/epic_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ePIC</h5>
-							<p class="card-text">Supplier quality management system</p>
+							<p class="card-text">Supplier quality monitoring</p>
 							<a href="#" class="btn btn-dark">See more</a>
 						</div>
 					</div>
@@ -333,7 +333,7 @@
 						<div class="card-header">
 							Web App & Android App
 						</div>
-						<img class="card-img-top" src="images/wms.png" alt="Card image cap">
+						<img class="card-img-top" src="images/wms_thumb.png" srcset="images/wms_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">WMS</h5>
 							<p class="card-text">Warehouse management</p>
@@ -346,7 +346,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/gmiv_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/gmiv_thumb.png" srcset="images/gmiv_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">GMIV</h5>
 							<p class="card-text">Finance invoicing system</p>
@@ -359,7 +359,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/invento_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/invento_thumb.png" srcset="images/invento_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Invento</h5>
 							<p class="card-text">Inventory tracking</p>
@@ -372,7 +372,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/SLS.png" alt="Card image cap">
+						<img class="card-img-top" src="images/SLS_thumb.png" srcset="images/SLS_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">SLS</h5>
 							<p class="card-text">Service tracking system</p>
@@ -386,7 +386,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/ITS_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/ITS_thumb.png" srcset="images/ITS_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ITS</h5>
 							<p class="card-text">Inventory Tracking</p>
@@ -400,7 +400,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/JSS_thumb.png" alt="Card image cap">
+						<img class="card-img-top" src="images/JSS_thumb.png" srcset="images/JSS_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">JSS</h5>
 							<p class="card-text">Sales tracking</p>
@@ -414,7 +414,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/TAS.png" alt="Card image cap">
+						<img class="card-img-top" src="images/TAS_thumb.png" srcset="images/TAS_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">TAS</h5>
 							<p class="card-text">Accounting system</p>
@@ -428,7 +428,7 @@
 						<div class="card-header">
 							Desktop App
 						</div>
-						<img class="card-img-top" src="images/DBase_thumb.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/DBase_thumb.png" srcset="images/DBase_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">DBase</h5>
 							<p class="card-text">Dental appointments</p>
@@ -441,7 +441,7 @@
 						<div class="card-header">
 							Android
 						</div>
-						<img class="card-img-top" src="images/delvi_thumb.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi_thumb.png" srcset="images/delvi_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Despondent</h5>
 							<p class="card-text">Web API client</p>
@@ -454,7 +454,7 @@
 						<div class="card-header">
 							Android
 						</div>
-						<img class="card-img-top" src="images/delvi_thumb.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi_thumb.png" srcset="images/delvi_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Delisi</h5>
 							<p class="card-text">Delivery asset tracking</p>
@@ -467,7 +467,7 @@
 						<div class="card-header">
 							Android / Deep Learning
 						</div>
-						<img class="card-img-top" src="images/delvi_thumb.PNG" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi_thumb.png" srcset="images/delvi_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Artz</h5>
 							<p class="card-text">Neural Style Transfer</p>
