@@ -16,161 +16,23 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"></script>
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
+	<script src="script.js"></script>
 
 	<link href="styles.css" type="text/css" rel="stylesheet">
-	<style>
-		.full {
-			width: 100vw;
-			height: 100vh;
-			max-width: 100%;
-			position: relative;
-		}
-
-		.full-width {
-			width: 100vw;
-			max-width: 100%;
-			position: relative;
-		}
-
-		.center {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			-webkit-transform: translate(-50%, -50%);
-			-moz-transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-			-o-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
-		}
-
-		.text-center {
-			text-align: center;
-		}
-
-		#particles-js {
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			background-color: #000 ;
-		}
-
-		.card-img-top {
-			height: 160px;
-		}
-
-		.no-decor {
-			text-decoration: none;
-		}
-		.no-decor:visited {
-			color:initial;
-		}
-		.no-decor:hover{
-			text-decoration: none;
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		.downArrow{
-			position: absolute;
-			left:43%;
-		}
-		.bounce {
-			-moz-animation: bounce 3s infinite;
-			-webkit-animation: bounce 3s infinite;
-			animation: bounce 3s infinite;
-		}
-		.bounce:hover {
-			-moz-animation:none;
-			-webkit-animation:none;
-			animation:none;
-		}
-		@-moz-keyframes bounce {
-			0%, 20%, 50%, 80%, 100% {
-				-moz-transform: translateY(0);
-				transform: translateY(0);
-			}
-			40% {
-				-moz-transform: translateY(-30px);
-				transform: translateY(-30px);
-			}
-			60% {
-				-moz-transform: translateY(-15px);
-				transform: translateY(-15px);
-			}
-		}
-		@-webkit-keyframes bounce {
-			0%, 20%, 50%, 80%, 100% {
-				-webkit-transform: translateY(0);
-				transform: translateY(0);
-			}
-			40% {
-				-webkit-transform: translateY(-30px);
-				transform: translateY(-30px);
-			}
-			60% {
-				-webkit-transform: translateY(-15px);
-				transform: translateY(-15px);
-			}
-		}
-		@keyframes bounce {
-			0%, 20%, 50%, 80%, 100% {
-				-moz-transform: translateY(0);
-				-ms-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				transform: translateY(0);
-			}
-			40% {
-				-moz-transform: translateY(-30px);
-				-ms-transform: translateY(-30px);
-				-webkit-transform: translateY(-30px);
-				transform: translateY(-30px);
-			}
-			60% {
-				-moz-transform: translateY(-15px);
-				-ms-transform: translateY(-15px);
-				-webkit-transform: translateY(-15px);
-				transform: translateY(-15px);
-			}
-		}
-
-
-
-
-
-
-
-
-
-
-
-	</style>
 </head>
 <body data-spy="scroll" data-target="#navbar">
-<!-- particles.js container -->
-<div id="particles-js"></div> <!-- stats - count particles -->
-<!--<div class="count-particles"><span class="js-count-particles">--</span> particles</div>-->
-<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<div id="particles-js"></div>
+
+
 
 	<div class="full" id="home">
 		<div class="center text-center text-white" style="font-size:45px;">
 			Seek Darryl<br>
 			and you shall find...<br><br>
-	<!--		<a class="no-decor text-white" href="#about">&#x25BC;</a>-->
-			<div style="position:relative;">
+			<div style="position:relative;width:100%;">
 				<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
 					<i class="fas fa-caret-down"></i>
 				</a>
@@ -179,7 +41,6 @@
 	</div>
 	<div>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
-		<!--				<a class="navbar-brand" href="#">Navbar</a>-->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -337,19 +198,6 @@
 						</div>
 					</div>
 				</div>
-<!--				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">-->
-<!--					<div class="card">-->
-<!--						<div class="card-header">-->
-<!--							Website-->
-<!--						</div>-->
-<!--						<img class="card-img-top" src="delvi.PNG" alt="Card image cap">-->
-<!--						<div class="card-body">-->
-<!--							<h5 class="card-title">NG Photography</h5>-->
-<!--							<p class="card-text">Business website</p>-->
-<!--							<a href="#" class="btn btn-dark">See more</a>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
 				<div class="col-xs-12 col-sm-6 col-xl-3 mt-3">
 					<div class="card">
 						<div class="card-header">
@@ -661,159 +509,24 @@
 					</form>
 				</div>
 				<div class="col-12 text-left my-5 pb-5">
-					<h3>Or you can find me on</h3>
-					<a class="text-dark no-decor" href="https://www.linkedin.com/in/darryl-alan"
-					   style="font-size:30px;"><i class="fab fa-linkedin"></i>
-						<span>https://www.linkedin.com/in/darryl-alan</span>
-					</a>
-					<br>
-					<a class="text-dark no-decor" href="https://github.com/darryl-alan"
-					   style="font-size:30px;"><i class="fab fa-github-square"></i>
-						<span>https://github.com/darryl-alan</span>
-					</a>
+					<h3 class="mb-3">You can also find me on</h3>
+					<div class="row col-12">
+						<a class="text-dark no-decor text-sm-medium" href="https://www.linkedin.com/in/darryl-alan"
+						   ><i class="fab fa-linkedin"></i>
+							<span>https://www.linkedin.com/in/darryl-alan</span>
+						</a>
+					</div>
+					<div class="row col-12 mt-2">
+						<a class="text-dark no-decor text-sm-medium" href="https://github.com/darryl-alan"
+						   ><i class="fab fa-github-square"></i>
+							<span>https://github.com/darryl-alan</span>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<script>
-	window.onload = function () {
-		$("a[href^='#']").on('click', function(e) {
-			e.preventDefault();
-			var hash = this.hash;
-
-			$('html, body').animate({
-				scrollTop: $(hash).offset().top
-			}, 600, function(){
-
-				// when done, add hash to url
-				// (default click behaviour)
-				window.location.hash = hash;
-			});
-
-		});
-
-		$(window).on('activate.bs.scrollspy', function (e,obj) {
-			if(history.replaceState && false) {
-				history.replaceState(null, null, obj.relatedTarget);
-			}
-			else {
-				// location.hash = obj.relatedTarget;
-			}
-		});
-
-		particlesJS("particles-js", {
-			"particles": {
-				"number": {
-					"value": 80,
-					"density": {
-						"enable": true,
-						"value_area": 800
-					}
-				},
-				"color": {
-					"value": "#ffffff"
-				},
-				"shape": {
-					"type": "circle",
-					"stroke": {
-						"width": 1,
-						"color": "#000000"
-					},
-					"polygon": {
-						"nb_sides": 5
-					},
-					// "image": {
-					// 	"src": "img/github.svg",
-					// 	"width": 100,
-					// 	"height": 100
-					// }
-				},
-				"opacity": {
-					"value": 1,
-					"random": false,
-					"anim": {
-						"enable": false,
-						"speed": 1,
-						"opacity_min": 0.1,
-						"sync": false
-					}
-				},
-				"size": {
-					"value": 3,
-					"random": true,
-					"anim": {
-						"enable": false,
-						"speed": 40,
-						"size_min": 0.1,
-						"sync": false
-					}
-				},
-				"line_linked": {
-					"enable": true,
-					"distance": 150,
-					"color": "#ffffff",
-					"opacity": 0.8,
-					"width": 1
-				},
-				"move": {
-					"enable": true,
-					"speed": 4,
-					"direction": "none",
-					"random": false,
-					"straight": false,
-					"out_mode": "out",
-					"bounce": false,
-					"attract": {
-						"enable": false,
-						"rotateX": 600,
-						"rotateY": 1200
-					}
-				}
-			},
-			"interactivity": {
-				"detect_on": "window",
-				"events": {
-					"onhover": {
-						"enable": true,
-						"mode": "grab"
-					},
-					"onclick": {
-						"enable": true,
-						"mode": "push"
-					},
-					"resize": true
-				},
-				"modes": {
-					"grab": {
-						"distance": 140,
-						"line_linked": {
-							"opacity": 1
-						}
-					},
-					"bubble": {
-						"distance": 400,
-						"size": 40,
-						"duration": 2,
-						"opacity": 8,
-						"speed": 3
-					},
-					"repulse": {
-						"distance": 200,
-						"duration": 0.4
-					},
-					"push": {
-						"particles_nb": 4
-					},
-					"remove": {
-						"particles_nb": 2
-					}
-				}
-			},
-			"retina_detect": true
-		});
-	}
-</script>
 </body>
 
 
