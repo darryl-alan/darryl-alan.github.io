@@ -18,7 +18,6 @@
 			crossorigin="anonymous"></script>
 
 
-
 	<link href="styles.css" type="text/css" rel="stylesheet">
 	<style>
 		.full {
@@ -166,19 +165,19 @@
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
 <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
-<div class="full">
-	<div class="center text-center text-white" style="font-size:45px;">
-		Seek Darryl<br>
-		and you shall find...<br><br>
-<!--		<a class="no-decor text-white" href="#about">&#x25BC;</a>-->
-		<div style="position:relative;">
-			<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
-				<i class="fas fa-caret-down"></i>
-			</a>
+	<div class="full" id="home">
+		<div class="center text-center text-white" style="font-size:45px;">
+			Seek Darryl<br>
+			and you shall find...<br><br>
+	<!--		<a class="no-decor text-white" href="#about">&#x25BC;</a>-->
+			<div style="position:relative;">
+				<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
+					<i class="fas fa-caret-down"></i>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-<div>
+	<div>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
 		<!--				<a class="navbar-brand" href="#">Navbar</a>-->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -189,7 +188,7 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
@@ -679,6 +678,30 @@
 </div>
 <script>
 	window.onload = function () {
+		$("a[href^='#']").on('click', function(e) {
+			e.preventDefault();
+			var hash = this.hash;
+
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 600, function(){
+
+				// when done, add hash to url
+				// (default click behaviour)
+				window.location.hash = hash;
+			});
+
+		});
+
+		$(window).on('activate.bs.scrollspy', function (e,obj) {
+			if(history.replaceState && false) {
+				history.replaceState(null, null, obj.relatedTarget);
+			}
+			else {
+				// location.hash = obj.relatedTarget;
+			}
+		});
+
 		particlesJS("particles-js", {
 			"particles": {
 				"number": {
