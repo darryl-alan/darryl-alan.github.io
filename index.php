@@ -230,10 +230,13 @@
 						<div class="card-body">
 							<h5 class="card-title">Meat Me Steakhouse</h5>
 							<p class="card-text">Business website</p>
-							<a href="#" class="btn btn-dark"
-
-							   data-gallery='[{"file": {"1x": "meatme_1_full.png", "2x": "meatme_1_full_2x.png"}, "title": "Meat Me Steak House", "description": ""}]'
-							   
+							<a href="projects/meatme" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "meatme_1_full.png", "2x": "meatme_1_full.png", "full": "meatme_1_full.png"},
+												"title": "Meat Me Steak House", "description": "Home"},
+												{"file": {"1x": "meatme_2.png", "2x": "meatme_2.png", "full": "meatme_2.png"},
+												"title": "Meat Me Steak House", "description": "Find Us"},
+												{"file": {"1x": "meatme_3.png", "2x": "meatme_3.png", "full": "meatme_3.png"},
+												"title": "Meat Me Steak House", "description": "Gallery"}]'
 								>See more</a>
 						</div>
 					</div>
@@ -247,7 +250,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Unique Home</h5>
 							<p class="card-text">Business website</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/uniquehome" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "uniquehome_1.png", "2x": "uniquehome_1_2x.png", "full": "uniquehome_1_full.png"},
+												"title": "Unique Home", "description": "Home"},
+												{"file": {"1x": "uniquehome_2.png", "2x": "uniquehome_2_2x.png", "full": "uniquehome_2_full.png"},
+												"title": "Unique Home", "description": "About"},
+												{"file": {"1x": "uniquehome_3.png", "2x": "uniquehome_3_2x.png", "full": "uniquehome_3_full.png"},
+												"title": "Unique Home", "description": "Projects"}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -260,7 +270,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Kreasicipta</h5>
 							<p class="card-text">Business website</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/kreasicipta" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "kreasicipta_1.png", "2x": "kreasicipta_1_2x.png", "full": "kreasicipta_1_full.png"},
+												"title": "Kreasicipta", "description": "Home"},
+												{"file": {"1x": "kreasicipta_2.png", "2x": "kreasicipta_2_2x.png", "full": "kreasicipta_2_full.png"},
+												"title": "Kreasicipta", "description": "Products"},
+												{"file": {"1x": "kreasicipta_3.png", "2x": "kreasicipta_3_2x.png", "full": "kreasicipta_3_full.png"},
+												"title": "Kreasicipta", "description": "Services"}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -273,7 +290,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Delvi</h5>
 							<p class="card-text">Supplier invoicing system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/delvi" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "delvi_1.png", "2x": "delvi_1_2x.png", "full": "delvi_1_full.png"},
+												"title": "Delvi", "description": "Home"},
+												{"file": {"1x": "delvi_2.png", "2x": "delvi_2_2x.png", "full": "delvi_2_full.png"},
+												"title": "Delvi", "description": ""},
+												{"file": {"1x": "delvi_3.png", "2x": "delvi_3_2x.png", "full": "delvi_3_full.png"},
+												"title": "Delvi", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -286,7 +310,14 @@
 						<div class="card-body">
 							<h5 class="card-title">DQS</h5>
 							<p class="card-text">Dealer Quality system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/dqs" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "dqs_1.png", "2x": "dqs_1_2x.png", "full": "dqs_1_full.png"},
+												"title": "DQS", "description": "Home"},
+												{"file": {"1x": "dqs_2.png", "2x": "dqs_2_2x.png", "full": "dqs_2_full.png"},
+												"title": "DQS", "description": ""},
+												{"file": {"1x": "dqs_3.png", "2x": "dqs_3_2x.png", "full": "dqs_3_full.png"},
+												"title": "DQS", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -299,7 +330,14 @@
 						<div class="card-body">
 							<h5 class="card-title">ePayment</h5>
 							<p class="card-text">Payment approval system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/epayment" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "epayment_1.png", "2x": "epayment_1_2x.png", "full": "epayment_1_full.png"},
+												"title": "ePayment", "description": "Home"},
+												{"file": {"1x": "epayment_2.png", "2x": "epayment_2_2x.png", "full": "epayment_2_full.png"},
+												"title": "ePayment", "description": ""},
+												{"file": {"1x": "epayment_3.png", "2x": "epayment_3_2x.png", "full": "epayment_3_full.png"},
+												"title": "ePayment", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -312,7 +350,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Bimas</h5>
 							<p class="card-text">Customer billing system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/bimas" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "bimas_1.png", "2x": "bimas_1_2x.png", "full": "bimas_1_full.png"},
+												"title": "Bimas", "description": "Home"},
+												{"file": {"1x": "bimas_2.png", "2x": "bimas_2_2x.png", "full": "bimas_2_full.png"},
+												"title": "Bimas", "description": ""},
+												{"file": {"1x": "bimas_3.png", "2x": "bimas_3_2x.png", "full": "bimas_3_full.png"},
+												"title": "Bimas", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -325,7 +370,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Part Movement</h5>
 							<p class="card-text">Logistics tracking system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/partmovement" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "partmovement_1.png", "2x": "partmovement_1_2x.png", "full": "partmovement_1_full.png"},
+												"title": "Part Movement", "description": "Home"},
+												{"file": {"1x": "partmovement_2.png", "2x": "partmovement_2_2x.png", "full": "partmovement_2_full.png"},
+												"title": "Part Movement", "description": ""},
+												{"file": {"1x": "partmovement_3.png", "2x": "partmovement_3_2x.png", "full": "partmovement_3_full.png"},
+												"title": "Part Movement", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -338,7 +390,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Inhouse</h5>
 							<p class="card-text">Spare parts tracking</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/inhouse" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "inhouse_1.png", "2x": "inhouse_1_2x.png", "full": "inhouse_1_full.png"},
+												"title": "Inhouse", "description": "Home"},
+												{"file": {"1x": "inhouse_2.png", "2x": "inhouse_2_2x.png", "full": "inhouse_2_full.png"},
+												"title": "Inhouse", "description": ""},
+												{"file": {"1x": "inhouse_3.png", "2x": "inhouse_3_2x.png", "full": "inhouse_3_full.png"},
+												"title": "Inhouse", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -349,9 +408,16 @@
 						</div>
 						<img class="card-img-top" src="images/efin_thumb.png" srcset="images/efin_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
-							<h5 class="card-title">eFIN</h5>
+							<h5 class="card-title">eFin</h5>
 							<p class="card-text">Finance invoicing system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/efin" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "efin_1.png", "2x": "efin_1_2x.png", "full": "efin_1_full.png"},
+												"title": "eFin", "description": "Home"},
+												{"file": {"1x": "efin_2.png", "2x": "efin_2_2x.png", "full": "efin_2_full.png"},
+												"title": "eFin", "description": ""},
+												{"file": {"1x": "efin_3.png", "2x": "efin_3_2x.png", "full": "efin_3_full.png"},
+												"title": "eFin", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -364,7 +430,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Leasing</h5>
 							<p class="card-text">Vehicle leasing system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/leasing" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "leasing_1.png", "2x": "leasing_1_2x.png", "full": "leasing_1_full.png"},
+												"title": "Leasing", "description": "Home"},
+												{"file": {"1x": "leasing_2.png", "2x": "leasing_2_2x.png", "full": "leasing_2_full.png"},
+												"title": "Leasing", "description": ""},
+												{"file": {"1x": "leasing_3.png", "2x": "leasing_3_2x.png", "full": "leasing_3_full.png"},
+												"title": "Leasing", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -377,7 +450,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Evo</h5>
 							<p class="card-text">Finance invoicing system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/evo" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "evo_1.png", "2x": "evo_1_2x.png", "full": "evo_1_full.png"},
+												"title": "Evo", "description": "Home"},
+												{"file": {"1x": "evo_2.png", "2x": "evo_2_2x.png", "full": "evo_2_full.png"},
+												"title": "Evo", "description": ""},
+												{"file": {"1x": "evo_3.png", "2x": "evo_3_2x.png", "full": "evo_3_full.png"},
+												"title": "Evo", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -390,7 +470,14 @@
 						<div class="card-body">
 							<h5 class="card-title">ePIC</h5>
 							<p class="card-text">Supplier quality monitoring</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/epic" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "epic_1.png", "2x": "epic_1_2x.png", "full": "epic_1_full.png"},
+												"title": "ePIC", "description": "Home"},
+												{"file": {"1x": "epic_2.png", "2x": "epic_2_2x.png", "full": "epic_2_full.png"},
+												"title": "ePIC", "description": ""},
+												{"file": {"1x": "epic_3.png", "2x": "epic_3_2x.png", "full": "epic_3_full.png"},
+												"title": "ePIC", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -403,7 +490,14 @@
 						<div class="card-body">
 							<h5 class="card-title">WMS</h5>
 							<p class="card-text">Warehouse management</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/wms" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "wms_1.png", "2x": "wms_1_2x.png", "full": "wms_1_full.png"},
+												"title": "WMS", "description": "Home"},
+												{"file": {"1x": "wms_2.png", "2x": "wms_2_2x.png", "full": "wms_2_full.png"},
+												"title": "WMS", "description": ""},
+												{"file": {"1x": "wms_3.png", "2x": "wms_3_2x.png", "full": "wms_3_full.png"},
+												"title": "WMS", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -416,7 +510,14 @@
 						<div class="card-body">
 							<h5 class="card-title">GMIV</h5>
 							<p class="card-text">Finance invoicing system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/gmiv" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "gmiv_1.png", "2x": "gmiv_1_2x.png", "full": "gmiv_1_full.png"},
+												"title": "GMIV", "description": "Home"},
+												{"file": {"1x": "gmiv_2.png", "2x": "gmiv_2_2x.png", "full": "gmiv_2_full.png"},
+												"title": "GMIV", "description": ""},
+												{"file": {"1x": "gmiv_3.png", "2x": "gmiv_3_2x.png", "full": "gmiv_3_full.png"},
+												"title": "GMIV", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -429,7 +530,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Invento</h5>
 							<p class="card-text">Inventory tracking</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/invento" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "invento_1.png", "2x": "invento_1_2x.png", "full": "invento_1_full.png"},
+												"title": "Invento", "description": "Home"},
+												{"file": {"1x": "invento_2.png", "2x": "invento_2_2x.png", "full": "invento_2_full.png"},
+												"title": "Invento", "description": ""},
+												{"file": {"1x": "invento_3.png", "2x": "invento_3_2x.png", "full": "invento_3_full.png"},
+												"title": "Invento", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -442,7 +550,14 @@
 						<div class="card-body">
 							<h5 class="card-title">SLS</h5>
 							<p class="card-text">Service tracking system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/sls" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "sls_1.png", "2x": "sls_1_2x.png", "full": "sls_1_full.png"},
+												"title": "SLS", "description": "Home"},
+												{"file": {"1x": "sls_2.png", "2x": "sls_2_2x.png", "full": "sls_2_full.png"},
+												"title": "SLS", "description": ""},
+												{"file": {"1x": "sls_3.png", "2x": "sls_3_2x.png", "full": "sls_3_full.png"},
+												"title": "SLS", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -456,7 +571,14 @@
 						<div class="card-body">
 							<h5 class="card-title">ITS</h5>
 							<p class="card-text">Inventory Tracking</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/its" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "its_1.png", "2x": "its_1_2x.png", "full": "its_1_full.png"},
+												"title": "ITS", "description": "Home"},
+												{"file": {"1x": "its_2.png", "2x": "its_2_2x.png", "full": "its_2_full.png"},
+												"title": "ITS", "description": ""},
+												{"file": {"1x": "its_3.png", "2x": "its_3_2x.png", "full": "its_3_full.png"},
+												"title": "ITS", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -470,7 +592,14 @@
 						<div class="card-body">
 							<h5 class="card-title">JSS</h5>
 							<p class="card-text">Sales tracking</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/jss" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "jss_1.png", "2x": "jss_1_2x.png", "full": "jss_1_full.png"},
+												"title": "JSS", "description": "Home"},
+												{"file": {"1x": "jss_2.png", "2x": "jss_2_2x.png", "full": "jss_2_full.png"},
+												"title": "JSS", "description": ""},
+												{"file": {"1x": "jss_3.png", "2x": "jss_3_2x.png", "full": "jss_3_full.png"},
+												"title": "JSS", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -484,7 +613,14 @@
 						<div class="card-body">
 							<h5 class="card-title">TAS</h5>
 							<p class="card-text">Accounting system</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/tas" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "tas_1.png", "2x": "tas_1_2x.png", "full": "tas_1_full.png"},
+												"title": "TAS", "description": "Home"},
+												{"file": {"1x": "tas_2.png", "2x": "tas_2_2x.png", "full": "tas_2_full.png"},
+												"title": "TAS", "description": ""},
+												{"file": {"1x": "tas_3.png", "2x": "tas_3_2x.png", "full": "tas_3_full.png"},
+												"title": "TAS", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -498,7 +634,14 @@
 						<div class="card-body">
 							<h5 class="card-title">DBase</h5>
 							<p class="card-text">Dental appointments</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/dbase" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "DBase_1.png", "2x": "DBase_1_2x.png", "full": "DBase_1_full.png"},
+												"title": "DBase", "description": "Home"},
+												{"file": {"1x": "DBase_2.png", "2x": "DBase_2_2x.png", "full": "DBase_2_full.png"},
+												"title": "DBase", "description": ""},
+												{"file": {"1x": "DBase_3.png", "2x": "DBase_3_2x.png", "full": "DBase_3_full.png"},
+												"title": "DBase", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -511,7 +654,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Despondent</h5>
 							<p class="card-text">Web API client</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/despondent" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "despondent_1.png", "2x": "despondent_1_2x.png", "full": "despondent_1_full.png"},
+												"title": "Despondent", "description": "Home"},
+												{"file": {"1x": "despondent_2.png", "2x": "despondent_2_2x.png", "full": "despondent_2_full.png"},
+												"title": "Despondent", "description": ""},
+												{"file": {"1x": "despondent_3.png", "2x": "despondent_3_2x.png", "full": "despondent_3_full.png"},
+												"title": "Despondent", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -524,7 +674,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Delisi</h5>
 							<p class="card-text">Delivery asset tracking</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/delisi" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "delisi_1.png", "2x": "delisi_1_2x.png", "full": "delisi_1_full.png"},
+												"title": "Delisi", "description": "Home"},
+												{"file": {"1x": "delisi_2.png", "2x": "delisi_2_2x.png", "full": "delisi_2_full.png"},
+												"title": "Delisi", "description": ""},
+												{"file": {"1x": "delisi_3.png", "2x": "delisi_3_2x.png", "full": "delisi_3_full.png"},
+												"title": "Delisi", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>
@@ -537,7 +694,14 @@
 						<div class="card-body">
 							<h5 class="card-title">Artz</h5>
 							<p class="card-text">Neural Style Transfer</p>
-							<a href="#" class="btn btn-dark">See more</a>
+							<a href="projects/artz" class="btn btn-dark"
+							   data-gallery='[{"file": {"1x": "artz_1.png", "2x": "artz_1_2x.png", "full": "artz_1_full.png"},
+												"title": "Artz", "description": "Home"},
+												{"file": {"1x": "artz_2.png", "2x": "artz_2_2x.png", "full": "artz_2_full.png"},
+												"title": "Artz", "description": ""},
+												{"file": {"1x": "artz_3.png", "2x": "artz_3_2x.png", "full": "artz_3_full.png"},
+												"title": "Artz", "description": ""}]'
+							>See more</a>
 						</div>
 					</div>
 				</div>

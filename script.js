@@ -18,6 +18,40 @@ $(function () {
 		}
 	});
 
+	$("#portfolio .card-body a").on('click', function(e){
+		e.preventDefault();
+		var $target = $(e.target);
+		try {
+			var gallery = JSON.parse($target.attr('data-gallery'));
+
+			$("#modalTitle").html($target.closest('.card-body').find('.card-title').html());
+			var list = gallery.map(function(e, i){
+				return '<li data-target="#carousel" data-slide-to="' + i + '" ' + (i == 0? 'class="active"' : '') + '></li>';
+			});
+
+			$("#carousel .carousel-indicators").html(list);
+
+			var imgs = gallery.map(function(e, i){
+				return '<div class="carousel-item ' + (i == 0? 'active' : '') + '">'
+					+ '<a href="images/' + e.file['full'] + '">'
+					+ 	'<img src="images/' + e.file['1x'] + '" srcset="images/' + e.file['2x'] + ' 2x" class="d-block w-100" alt="' + e.title + '">'
+					+ '</a>'
+					+ '<div class="carousel-caption d-none d-md-block">'
+					+ ' <h5>' + e.title + '</h5>'
+					+ '<p>' + e.description + '</p>'
+					+ '</div>'
+				+ '</div>';
+			});
+
+			$("#carousel .carousel-inner").html(imgs);
+
+			$("#modal").modal('show');
+		}
+		catch(ex){
+			console.log(ex);
+		}
+	});
+
 	particlesJS("particles-js", {
 		"particles": {
 			"number": {
