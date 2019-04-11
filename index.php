@@ -376,6 +376,8 @@
 												{"file": {"sm": "partmovement_2_360.png", "md": "partmovement_2_720.png", "lg": "partmovement_2_1080.png", "full": "partmovement_2_full.png"},
 												"title": "Part Movement", "description": ""},
 												{"file": {"sm": "partmovement_3_360.png", "md": "partmovement_3_720.png", "lg": "partmovement_3_1080.png", "full": "partmovement_3_full.png"},
+												"title": "Part Movement", "description": ""},
+												{"file": {"sm": "partmovement_4_360.png", "md": "partmovement_4_720.png", "lg": "partmovement_4_1080.png", "full": "partmovement_4_full.png"},
 												"title": "Part Movement", "description": ""}]'
 							>See more</a>
 						</div>
@@ -416,6 +418,8 @@
 												{"file": {"sm": "efin_2_360.png", "md": "efin_2_720.png", "lg": "efin_2_1080.png", "full": "efin_2_full.png"},
 												"title": "eFin", "description": ""},
 												{"file": {"sm": "efin_3_360.png", "md": "efin_3_720.png", "lg": "efin_3_1080.png", "full": "efin_3_full.png"},
+												"title": "eFin", "description": ""},
+												{"file": {"sm": "efin_4_360.png", "md": "efin_4_720.png", "lg": "efin_4_1080.png", "full": "efin_4_full.png"},
 												"title": "eFin", "description": ""}]'
 							>See more</a>
 						</div>
@@ -456,6 +460,8 @@
 												{"file": {"sm": "evo_2_360.png", "md": "evo_2_720.png", "lg": "evo_2_1080.png", "full": "evo_2_full.png"},
 												"title": "Evo", "description": ""},
 												{"file": {"sm": "evo_3_360.png", "md": "evo_3_720.png", "lg": "evo_3_1080.png", "full": "evo_3_full.png"},
+												"title": "Evo", "description": ""},
+												{"file": {"sm": "evo_4_360.png", "md": "evo_4_720.png", "lg": "evo_4_1080.png", "full": "evo_4_full.png"},
 												"title": "Evo", "description": ""}]'
 							>See more</a>
 						</div>
@@ -476,6 +482,12 @@
 												{"file": {"sm": "epic_2_360.png", "md": "epic_2_720.png", "lg": "epic_2_1080.png", "full": "epic_2_full.png"},
 												"title": "ePIC", "description": ""},
 												{"file": {"sm": "epic_3_360.png", "md": "epic_3_720.png", "lg": "epic_3_1080.png", "full": "epic_3_full.png"},
+												"title": "ePIC", "description": ""},
+												{"file": {"sm": "epic_4_360.png", "md": "epic_4_720.png", "lg": "epic_4_1080.png", "full": "epic_4_full.png"},
+												"title": "ePIC", "description": ""},
+												{"file": {"sm": "epic_5_360.png", "md": "epic_5_720.png", "lg": "epic_5_1080.png", "full": "epic_5_full.png"},
+												"title": "ePIC", "description": ""},
+												{"file": {"sm": "epic_6_360.png", "md": "epic_6_720.png", "lg": "epic_6_1080.png", "full": "epic_6_full.png"},
 												"title": "ePIC", "description": ""}]'
 							>See more</a>
 						</div>
@@ -491,12 +503,16 @@
 							<h5 class="card-title">WMS</h5>
 							<p class="card-text">Warehouse management</p>
 							<a href="projects/wms" class="btn btn-dark"
-							   data-gallery='[{"file": {"sm": "wms_1_360.png", "md": "wms_1_720.png", "lg": "wms_1_1080.png", "full": "wms_1_full.png"},
-												"title": "WMS", "description": "Home"},
-												{"file": {"sm": "wms_2_360.png", "md": "wms_2_720.png", "lg": "wms_2_1080.png", "full": "wms_2_full.png"},
-												"title": "WMS", "description": ""},
-												{"file": {"sm": "wms_3_360.png", "md": "wms_3_720.png", "lg": "wms_3_1080.png", "full": "wms_3_full.png"},
-												"title": "WMS", "description": ""}]'
+							   data-gallery='[{"file": {"sm": "wms_1_360.png", "md": "wms_1_720.png", "lg": "wms_1_1080.png", "full": "wms_1_full.png"},"title": "WMS", "description": "Home"},
+												{"file": {"sm": "wms_2_360.png", "md": "wms_2_720.png", "lg": "wms_2_1080.png", "full": "wms_2_full.png"},"title": "WMS", "description": ""},
+												{"file": {"sm": "wms_3_360.png", "md": "wms_3_720.png", "lg": "wms_3_1080.png", "full": "wms_3_full.png"},"title": "WMS", "description": ""},
+												{"file": {"sm": "wms_4_360.png", "md": "wms_4_720.png", "lg": "wms_4_1080.png", "full": "wms_4_full.png"}, "title": "WMS", "description": ""},
+												{"file": {"sm": "wms_5_360.png", "md": "wms_5_720.png", "lg": "wms_5_1080.png", "full": "wms_5_full.png"}, "title": "WMS", "description": ""},
+												{"file": {"sm": "wms_6_360.png", "md": "wms_6_720.png", "lg": "wms_6_1080.png", "full": "wms_6_full.png"}, "title": "WMS", "description": ""},
+												{"file": {"sm": "wms_7_360.png", "md": "wms_7_720.png", "lg": "wms_7_1080.png", "full": "wms_7_full.png"}, "title": "WMS", "description": ""},
+												{"file": {"sm": "wms_8_360.png", "md": "wms_8_720.png", "lg": "wms_8_1080.png", "full": "wms_8_full.png"}, "title": "WMS", "description": ""},
+												{"file": {"sm": "wms_9_360.png", "md": "wms_9_720.png", "lg": "wms_9_1080.png", "full": "wms_9_full.png"}, "title": "WMS", "description": ""},
+												{"file": {"sm": "wms_10_360.png", "md": "wms_10_720.png", "lg": "wms_10_1080.png", "full": "wms_10_full.png"}, "title": "WMS", "description": ""}]'
 							>See more</a>
 						</div>
 					</div>
@@ -511,12 +527,10 @@
 							<h5 class="card-title">GMIV</h5>
 							<p class="card-text">Finance invoicing system</p>
 							<a href="projects/gmiv" class="btn btn-dark"
-							   data-gallery='[{"file": {"sm": "gmiv_1_360.png", "md": "gmiv_1_720.png", "lg": "gmiv_1_1080.png", "full": "gmiv_1_full.png"},
-												"title": "GMIV", "description": "Home"},
-												{"file": {"sm": "gmiv_2_360.png", "md": "gmiv_2_720.png", "lg": "gmiv_2_1080.png", "full": "gmiv_2_full.png"},
-												"title": "GMIV", "description": ""},
-												{"file": {"sm": "gmiv_3_360.png", "md": "gmiv_3_720.png", "lg": "gmiv_3_1080.png", "full": "gmiv_3_full.png"},
-												"title": "GMIV", "description": ""}]'
+							   data-gallery='[{"file": {"sm": "gmiv_1_360.png", "md": "gmiv_1_720.png", "lg": "gmiv_1_1080.png", "full": "gmiv_1_full.png"},"title": "GMIV", "description": "Home"},
+												{"file": {"sm": "gmiv_2_360.png", "md": "gmiv_2_720.png", "lg": "gmiv_2_1080.png", "full": "gmiv_2_full.png"},"title": "GMIV", "description": ""},
+												{"file": {"sm": "gmiv_3_360.png", "md": "gmiv_3_720.png", "lg": "gmiv_3_1080.png", "full": "gmiv_3_full.png"},"title": "GMIV", "description": ""},
+												{"file": {"sm": "gmiv_4_360.png", "md": "gmiv_4_720.png", "lg": "gmiv_4_1080.png", "full": "gmiv_4_full.png"},"title": "GMIV", "description": ""}]'
 							>See more</a>
 						</div>
 					</div>
@@ -635,12 +649,10 @@
 							<h5 class="card-title">DBase</h5>
 							<p class="card-text">Dental appointments</p>
 							<a href="projects/dbase" class="btn btn-dark"
-							   data-gallery='[{"file": {"sm": "DBase_1_360.png", "md": "DBase_1_720.png", "lg": "DBase_1_1080.png", "full": "DBase_1_full.png"},
-												"title": "DBase", "description": "Home"},
-												{"file": {"sm": "DBase_2_360.png", "md": "DBase_2_720.png", "lg": "DBase_2_1080.png", "full": "DBase_2_full.png"},
-												"title": "DBase", "description": ""},
-												{"file": {"sm": "DBase_3_360.png", "md": "DBase_3_720.png", "lg": "DBase_3_1080.png", "full": "DBase_3_full.png"},
-												"title": "DBase", "description": ""}]'
+							   data-gallery='[{"file": {"sm": "DBase_1_360.png", "md": "DBase_1_720.png", "lg": "DBase_1_1080.png", "full": "DBase_1_full.png"},"title": "DBase", "description": "Home"},
+												{"file": {"sm": "DBase_2_360.png", "md": "DBase_2_720.png", "lg": "DBase_2_1080.png", "full": "DBase_2_full.png"},"title": "DBase", "description": ""},
+												{"file": {"sm": "DBase_3_360.png", "md": "DBase_3_720.png", "lg": "DBase_3_1080.png", "full": "DBase_3_full.png"},"title": "DBase", "description": ""},
+												{"file": {"sm": "DBase_4_360.png", "md": "DBase_4_720.png", "lg": "DBase_4_1080.png", "full": "DBase_4_full.png"},"title": "DBase", "description": ""}]'
 							>See more</a>
 						</div>
 					</div>
