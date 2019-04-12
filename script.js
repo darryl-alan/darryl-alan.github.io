@@ -99,4 +99,31 @@ $(function () {
 		},
 		"retina_detect": true
 	});
+
+
+	var $contactForm = $("#contact-form");
+
+	var preventForm = true;
+	$contactForm.submit(function(e) {
+		if(!preventForm) {
+			$(this).find('input, textarea').val('');
+			$(this).removeClass('was-validated').addClass('needs-validation');
+			preventForm = true;
+			return;
+		}
+
+		e.preventDefault();
+
+		$(this).addClass('was-validated').removeClass('needs-validation');
+		if ($(this)[0].checkValidity() === false) {
+			e.preventDefault();
+			e.stopPropagation();
+			return;
+		}
+
+		preventForm = false;
+		$(this).submit();
+	});
+	$contactForm.attr('novalidate', 'novalidate');
+	$contactForm.addClass('needs-validation');
 });

@@ -737,15 +737,26 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<form>
+					<form target="_blank" method="POST" action="https://formspree.io/darryl.alan.7@gmail.com" id="contact-form">
 						<div class="form-group">
-							<label for="exampleFormControlInput1">Email address</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1"
-								   placeholder="name@example.com">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+							<div class="valid-feedback">
+								Email looks good!
+							</div>
+							<div class="invalid-feedback">
+								Please enter a valid email
+							</div>
 						</div>
 						<div class="form-group">
-							<label for="exampleFormControlTextarea1">Message</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+							<label for="message">Message</label>
+							<textarea class="form-control" id="message" rows="5" required></textarea>
+							<div class="valid-feedback">
+								Message looks good!
+							</div>
+							<div class="invalid-feedback">
+								Please enter a message
+							</div>
 						</div>
 						<button type="submit" class="btn btn-dark">Send</button>
 					</form>
@@ -753,6 +764,12 @@
 				<div class="col-12 text-left my-5 pb-5">
 					<h3 class="mb-3">You can also find me on</h3>
 					<div class="row col-12">
+						<a class="text-dark no-decor text-sm-medium" href="mailto:darryl.alan.7@gmail.com?subject=seekdarryl.com"
+						><i class="far fa-envelope" style="font-size:18.7px;"></i>
+							<span>darryl.alan.7@gmail.com</span>
+						</a>
+					</div>
+					<div class="row col-12 mt-2">
 						<a class="text-dark no-decor text-sm-medium" href="https://www.linkedin.com/in/darryl-alan"
 						   ><i class="fab fa-linkedin"></i>
 							<span>https://www.linkedin.com/in/darryl-alan</span>
