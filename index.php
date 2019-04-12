@@ -286,7 +286,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/delvi_thumb.PNG" srcset="images/delvi_thumb_2x.PNG 2x" alt="Card image cap">
+						<img class="card-img-top" src="images/delvi_thumb.png" srcset="images/delvi_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Delvi</h5>
 							<p class="card-text">Supplier invoicing system</p>
