@@ -571,7 +571,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/SLS_thumb.png" srcset="images/SLS_thumb_2x.png 2x" alt="Card image cap">
+						<img class="card-img-top" src="images/sls_thumb.png" srcset="images/sls_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">SLS</h5>
 							<p class="card-text">Service tracking system</p>
@@ -592,7 +592,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/ITS_thumb.png" srcset="images/ITS_thumb_2x.png 2x" alt="Card image cap">
+						<img class="card-img-top" src="images/its_thumb.png" srcset="images/its_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">ITS</h5>
 							<p class="card-text">Inventory Tracking</p>
@@ -613,7 +613,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/JSS_thumb.png" srcset="images/JSS_thumb_2x.png 2x" alt="Card image cap">
+						<img class="card-img-top" src="images/jss_thumb.png" srcset="images/jss_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">JSS</h5>
 							<p class="card-text">Sales tracking</p>
@@ -634,7 +634,7 @@
 						<div class="card-header">
 							Web App
 						</div>
-						<img class="card-img-top" src="images/TAS_thumb.png" srcset="images/TAS_thumb_2x.png 2x" alt="Card image cap">
+						<img class="card-img-top" src="images/tas_thumb.png" srcset="images/tas_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">TAS</h5>
 							<p class="card-text">Accounting system</p>
@@ -655,15 +655,15 @@
 						<div class="card-header">
 							Desktop App
 						</div>
-						<img class="card-img-top" src="images/DBase_thumb.png" srcset="images/DBase_thumb_2x.png 2x" alt="Card image cap">
+						<img class="card-img-top" src="images/dbase_thumb.png" srcset="images/dbase_thumb_2x.png 2x" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">DBase</h5>
 							<p class="card-text">Dental appointments</p>
 							<a href="projects/dbase" class="btn btn-dark"
-							   data-gallery='[{"file": {"sm": "DBase_1_360.png", "md": "DBase_1_720.png", "lg": "DBase_1_1080.png", "full": "DBase_1_full.png"},"title": "DBase", "description": "Home"},
-												{"file": {"sm": "DBase_2_360.png", "md": "DBase_2_720.png", "lg": "DBase_2_1080.png", "full": "DBase_2_full.png"},"title": "DBase", "description": ""},
-												{"file": {"sm": "DBase_3_360.png", "md": "DBase_3_720.png", "lg": "DBase_3_1080.png", "full": "DBase_3_full.png"},"title": "DBase", "description": ""},
-												{"file": {"sm": "DBase_4_360.png", "md": "DBase_4_720.png", "lg": "DBase_4_1080.png", "full": "DBase_4_full.png"},"title": "DBase", "description": ""}]'
+							   data-gallery='[{"file": {"sm": "dbase_1_360.png", "md": "dbase_1_720.png", "lg": "dbase_1_1080.png", "full": "dbase_1_full.png"},"title": "DBase", "description": "Home"},
+												{"file": {"sm": "dbase_2_360.png", "md": "dbase_2_720.png", "lg": "dbase_2_1080.png", "full": "dbase_2_full.png"},"title": "DBase", "description": ""},
+												{"file": {"sm": "dbase_3_360.png", "md": "dbase_3_720.png", "lg": "dbase_3_1080.png", "full": "dbase_3_full.png"},"title": "DBase", "description": ""},
+												{"file": {"sm": "dbase_4_360.png", "md": "dbase_4_720.png", "lg": "dbase_4_1080.png", "full": "dbase_4_full.png"},"title": "DBase", "description": ""}]'
 							>See more</a>
 						</div>
 					</div>
