@@ -106,7 +106,7 @@ $(function () {
 	var preventForm = true;
 	$contactForm.submit(function(e) {
 		if(!preventForm) {
-			$(this).find('input, textarea').val('');
+			setTimeout(function(){$(this).find('input, textarea').val('')}, 1000);
 			$(this).removeClass('was-validated').addClass('needs-validation');
 			preventForm = true;
 			return;
