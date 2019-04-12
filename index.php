@@ -1,15 +1,26 @@
-<?php
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>seekdarryl.com</title>
+	<title>Seek Darryl</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -740,7 +751,7 @@
 					<form target="_blank" method="POST" action="https://formspree.io/darryl.alan.7@gmail.com" id="contact-form">
 						<div class="form-group">
 							<label for="email">Email address</label>
-							<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+							<input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
 							<div class="valid-feedback">
 								Email looks good!
 							</div>
@@ -750,7 +761,7 @@
 						</div>
 						<div class="form-group">
 							<label for="message">Message</label>
-							<textarea class="form-control" id="message" rows="5" required></textarea>
+							<textarea name="message" class="form-control" id="message" rows="5" required></textarea>
 							<div class="valid-feedback">
 								Message looks good!
 							</div>
