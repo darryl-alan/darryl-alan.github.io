@@ -105,24 +105,25 @@ $(function () {
 
 	var preventForm = true;
 	$contactForm.submit(function(e) {
+		var $form = $(this);
 		if(!preventForm) {
-			setTimeout(function(){$(this).find('input, textarea').val('')}, 1000);
-			$(this).removeClass('was-validated').addClass('needs-validation');
+			setTimeout(function(){$form.find('input, textarea').val('')}, 1000);
+			$form.removeClass('was-validated').addClass('needs-validation');
 			preventForm = true;
 			return;
 		}
 
 		e.preventDefault();
 
-		$(this).addClass('was-validated').removeClass('needs-validation');
-		if ($(this)[0].checkValidity() === false) {
+		$form.addClass('was-validated').removeClass('needs-validation');
+		if ($form[0].checkValidity() === false) {
 			e.preventDefault();
 			e.stopPropagation();
 			return;
 		}
 
 		preventForm = false;
-		$(this).submit();
+		$form.submit();
 	});
 	$contactForm.attr('novalidate', 'novalidate');
 	$contactForm.addClass('needs-validation');
