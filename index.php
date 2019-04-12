@@ -92,9 +92,9 @@
 
 	<div class="full" id="home">
 		<div class="center text-center text-white" style="font-size:45px;">
-			Seek Darryl<br>
-			and you shall find...<br><br>
-			<div style="position:relative;width:100%;">
+			<span style="pointer-events: all;">Seek Darryl<br>
+				and you shall find...</span><br><br>
+			<div style="position:relative;width:100%;pointer-events: all;">
 				<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
 					<i class="fas fa-caret-down"></i>
 				</a>
