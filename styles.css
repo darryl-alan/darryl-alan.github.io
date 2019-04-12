@@ -3,6 +3,7 @@
 	height: 100vh;
 	max-width: 100%;
 	position: relative;
+	pointer-events: none; /* to let the mouse events go through to the canvas below */
 }
 
 .full .center {
