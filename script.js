@@ -34,7 +34,7 @@ $(function () {
 			var imgs = gallery.map(function(e, i){
 				return '<div class="carousel-item ' + (i == 0? 'active' : '') + '">'
 					+ '<a href="images/' + e.file['full'] + '">'
-					+ 	'<img class="d-block w-100" alt="' + e.title + '" ' +
+					+ 	'<img class="d-block mx-auto" alt="' + e.title + '" ' +
 							'src="images/' + e.file['md'] + '" ' +
 							'sizes="(max-width: 400px) 360px, (max-width: 800px) 720px, 1080px" ' +
 							'srcset="images/' + e.file['sm'] + ' 360w, images/' + e.file['md'] + ' 720w,' +

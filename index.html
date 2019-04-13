@@ -48,11 +48,13 @@
 			<div class="modal-body">
 				<div class="bd-example">
 					<div id="carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel" data-slide-to="1"></li>
-							<li data-target="#carousel" data-slide-to="2"></li>
-						</ol>
+						<div class="carousel-indicators-container">
+							<ol class="carousel-indicators px-2">
+								<li data-target="#carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel" data-slide-to="1"></li>
+								<li data-target="#carousel" data-slide-to="2"></li>
+							</ol>
+						</div>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="images/bimas_thumb.png" class="d-block w-100" alt="...">

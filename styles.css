@@ -164,11 +164,36 @@ i.animated {
 	border-radius:15px;
 }
 
-.carousel-indicators li {
-	background-color: #999;
-	background-color: rgba(70,70,70,.25);
+.carousel-indicators {
+	position:relative;
+	background: black;
+	border-radius:15px;
+}
+/*.carousel-indicators li {*/
+	/*background-color: #999;*/
+	/*background-color: rgba(70,70,70,.25);*/
+/*}*/
+
+/*.carousel-indicators .active {*/
+	/*background-color: #444;*/
+/*}*/
+
+.carousel-indicators-container {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 15;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none;
 }
 
-.carousel-indicators .active {
-	background-color: #444;
+.carousel-item img {
+	max-height: 80vh;
 }
