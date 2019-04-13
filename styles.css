@@ -137,7 +137,7 @@ i.animated {
 }
 @media screen and (max-width: 340px) {
 	.text-sm-medium {
-		font-size: 13.5px !important;
+		font-size: 13.2px !important;
 	}
 }
 
@@ -196,4 +196,21 @@ i.animated {
 
 .carousel-item img {
 	max-height: 80vh;
+}
+
+@media screen and (max-width: 340px) {
+	.far.fa-envelope {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 341px) and (max-width: 768px) {
+	.far.fa-envelope {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 769px) {
+	.far.fa-envelope {
+		font-size: 18.7px;
+	}
 }
