@@ -6,6 +6,10 @@
 	pointer-events: none; /* to let the mouse events go through to the canvas below */
 }
 
+.full.android-chrome{
+	height: calc(100vh - 56px) !important; /* because android chrome always calculated vh to be full screen height */
+}
+
 .full .center {
 	width:90%;
 }

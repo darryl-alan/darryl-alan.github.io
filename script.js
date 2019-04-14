@@ -127,4 +127,10 @@ $(function () {
 	});
 	$contactForm.attr('novalidate', 'novalidate');
 	$contactForm.addClass('needs-validation');
+
+	if(navigator.userAgent.indexOf('Android') >= 0
+		&& (/Chrome\/[.0-9]* Mobile/.test(navigator.userAgent)
+			|| /Chrome\/[.0-9]* (?!Mobile)/.test(navigator.userAgent) )){
+		$(".full").addClass('android-chrome');
+	}
 });
