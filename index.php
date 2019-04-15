@@ -143,7 +143,10 @@
 		<div class="container py-5 text-center">
 			<div class="row">
 				<div class="col-xs-12 col-md-6 pr-md-5 text-md-right">
-					<img src="photo.jpg" style="background-color: #fff;width:250px;max-width:100%;">
+					<img src="images/photo_250.png" style="background-color: #fff;width:250px;max-width:100%;"
+					sizes="(max-width: 400px) 360px, (max-width: 800px) 720px, 1080px"
+					srcset="images/photo_250.png 360w, images/photo_500.png 720w, images/photo_500.png 1080w"
+					>
 				</div>
 				<div class="col-xs-12 col-md-4 pr-md-5">
 					<h1>Darryl Alan</h1>
