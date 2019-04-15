@@ -108,7 +108,7 @@
 			<span style="pointer-events: all;">Seek Darryl<br>
 				and you shall find...</span><br><br>
 			<div style="position:relative;width:100%;pointer-events: all;">
-				<a class="no-decor text-white downArrow bounce" style="font-size:50px;" href="#about">
+				<a class="no-decor text-white downArrow bounce" style="font-size:100px;" href="#about">
 					<i class="fas fa-caret-down"></i>
 				</a>
 			</div>
@@ -774,7 +774,7 @@
 						<button type="submit" class="btn btn-dark">Send</button>
 					</form>
 				</div>
-				<div class="col-12 text-left my-5 pb-5">
+				<div class="col-12 text-left my-5">
 					<h3 class="mb-3">You can also find me on</h3>
 					<div class="row col-12">
 						<a class="text-dark no-decor text-sm-medium" href="mailto:darryl.alan.7@gmail.com?subject=seekdarryl.com"
@@ -795,6 +795,14 @@
 						</a>
 					</div>
 				</div>
+			</div>
+
+			<div class="text-center">
+				<a href="#about" class="text-dark no-decor" style="font-size:35px;">
+					<button class="btn btn-circle btn-dark mt-3">
+						<i class="fa fa-angle-up fa-2x animated"></i>
+					</button>
+				</a>
 			</div>
 		</div>
 	</div>

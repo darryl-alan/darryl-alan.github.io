@@ -57,7 +57,6 @@
 }
 
 
-
 .downArrow{
 	position: absolute;
 	left:50%;
@@ -127,24 +126,6 @@ i.animated {
 	background: #ffffff;
 }
 
-
-@media screen and (min-width: 768px) {
-	.text-sm-medium {
-		font-size: 21px !important;
-	}
-}
-
-@media screen and (max-width: 767px) and (min-width: 361px) {
-	.text-sm-medium {
-		font-size: 16px !important;
-	}
-}
-@media screen and (max-width: 360px) {
-	.text-sm-medium {
-		font-size: 14.5px !important;
-	}
-}
-
 .nav-link  {
 	font-size: 22px;
 	font-weight: bold;
@@ -173,14 +154,6 @@ i.animated {
 	background: black;
 	border-radius:15px;
 }
-/*.carousel-indicators li {*/
-	/*background-color: #999;*/
-	/*background-color: rgba(70,70,70,.25);*/
-/*}*/
-
-/*.carousel-indicators .active {*/
-	/*background-color: #444;*/
-/*}*/
 
 .carousel-indicators-container {
 	position: absolute;
@@ -216,5 +189,22 @@ i.animated {
 @media screen and (min-width: 769px) {
 	.far.fa-envelope {
 		font-size: 18.7px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.text-sm-medium {
+		font-size: 21px !important;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 361px) {
+	.text-sm-medium {
+		font-size: 16px !important;
+	}
+}
+@media screen and (max-width: 360px) {
+	.text-sm-medium {
+		font-size: 14.5px !important;
 	}
 }
