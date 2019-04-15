@@ -153,6 +153,7 @@ i.animated {
 	position:relative;
 	background: black;
 	border-radius:15px;
+	max-width:100%;
 }
 
 .carousel-indicators-container {
