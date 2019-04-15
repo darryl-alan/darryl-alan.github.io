@@ -778,7 +778,7 @@
 					<h3 class="mb-3">You can also find me on</h3>
 					<div class="row col-12">
 						<a class="text-dark no-decor text-sm-medium" href="mailto:darryl.alan.7@gmail.com?subject=seekdarryl.com"
-						><i class="far fa-envelope" style="font-size:18.7px;"></i>
+						><i class="far fa-envelope"></i>
 							<span>darryl.alan.7@gmail.com</span>
 						</a>
 					</div>

@@ -134,14 +134,14 @@ i.animated {
 	}
 }
 
-@media screen and (max-width: 767px) and (min-width: 341px) {
+@media screen and (max-width: 767px) and (min-width: 361px) {
 	.text-sm-medium {
 		font-size: 16px !important;
 	}
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
 	.text-sm-medium {
-		font-size: 13.2px !important;
+		font-size: 14.5px !important;
 	}
 }
 
@@ -204,7 +204,7 @@ i.animated {
 
 @media screen and (max-width: 360px) {
 	.far.fa-envelope {
-		font-size: 12px;
+		font-size: 13px;
 	}
 }
 
