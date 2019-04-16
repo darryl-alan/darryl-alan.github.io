@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76870808-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-76870808-2');
+	</script>
+
 	<title>Seek Darryl</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="msapplication-TileColor" content="#da532c">

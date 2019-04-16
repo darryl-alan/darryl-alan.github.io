@@ -6,7 +6,7 @@ $(function () {
 
 		$('html, body').animate({
 			scrollTop: $(hash).offset().top
-		}, 600, function(){
+		}, 700, function(){
 			window.location.hash = hash;
 		});
 
@@ -59,14 +59,14 @@ $(function () {
 	particlesJS("particles-js", {
 		"particles": {
 			"number": {
-				"value": 150,
+				"value": 135,
 			},
 			"size": {
 				"value": 3,
 				"random": true,
 				"anim": {
 					"enable": false,
-					"speed": 30,
+					"speed": 25,
 					"size_min": 0.1,
 					"sync": false
 				}
